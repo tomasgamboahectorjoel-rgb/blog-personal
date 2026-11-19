@@ -2,10 +2,10 @@
 $menu = [
     ""            => "Inicio",
     "sobre-mi"    => "Sobre mí",
+    "blog"        => "Blog",
     "academico"   => "Académico",
     "experiencia" => "Experiencia",
     "proyectos"   => "Proyectos",
-    "blog"        => "Blog",
     "contacto"    => "Contacto",
 ];
 ?>
