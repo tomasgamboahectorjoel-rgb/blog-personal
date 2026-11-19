@@ -1,0 +1,20 @@
+runtime: php83
+entrypoint: serve api/index.php
+handlers:
+# Archivos estaticos que viven en public/
+- url: /css
+  static_dir: public/css
+
+- url: /js
+  static_dir: public/js
+
+- url: /img
+  static_dir: public/img
+
+- url: /favicon.svg
+  static_files: public/favicon.svg
+  upload: public/favicon.svg
+
+# Todo lo demas (inicio, sobre-mi, blog, etc.) lo atiende api/index.php
+- url: /.*
+  script: auto
