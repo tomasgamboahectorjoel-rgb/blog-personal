@@ -7,7 +7,7 @@ Cambia aquí tus datos y se actualizan en todo el sitio.
 $perfil = [
     "nombre"       => "Héctor Joel Tomas Gamboa",
     "nombre_corto" => "Héctor Tomas",
-    "frase"        => "Estudiante de Ingeniería de Sistemas, apasionado por la ciencia de datos y la inteligencia artificial.",
+    "frase"        => "Estudiante de Ingeniería de Sistemas, hincha del Barça y con mucha curiosidad por la ciencia de datos y la inteligencia artificial.",
     "ubicacion"    => "Chimbote, Áncash, Perú",
     "correo"       => "hectorjoeltomas@gmail.com",
     "github"       => "https://github.com/tomasgamboahectorjoel-rgb",
@@ -17,17 +17,19 @@ $perfil = [
     /* Frases que se escriben solas en la portada */
     "frases"       => [
         "estudiante de Ingeniería de Sistemas e Informática",
-        "apasionado por la ciencia de datos y la inteligencia artificial",
-        "programador de agentes de IA",
+        "hincha del Barça",
+        "fan del ají de gallina",
+        "fan de las películas de ciencia ficción",
+        "curioso por la ciencia de datos y la IA",
         "listo para trabajar en big data e IA",
     ],
 ];
 
 $cifras = [
-    ["valor" => "X",   "texto" => "ciclo en curso, el último"],
-    ["valor" => "2",   "texto" => "pasantías, una en España"],
-    ["valor" => "1.º", "texto" => "puesto en Impact Startup Competition"],
-    ["valor" => "19",  "texto" => "de promedio en Algoritmos"],
-    ["valor" => "4",   "texto" => "meses de prácticas como programador"],
+    ["valor" => "Barcelona",       "texto" => "mi equipo de fútbol"],
+    ["valor" => "Ají de gallina",  "texto" => "mi plato favorito"],
+    ["valor" => "PES",             "texto" => "mi videojuego favorito"],
+    ["valor" => "Ciencia ficción", "texto" => "lo que más disfruto en el cine"],
+    ["valor" => "Familia",         "texto" => "mi mejor plan, en casa o de viaje"],
 ];
 ?>

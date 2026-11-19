@@ -14,6 +14,97 @@ $categorias = [
 
 $entradas = [
     [
+        "slug"      => "salsa-cumbia-y-juan-gabriel",
+        "titulo"    => "Salsa, cumbia y Juan Gabriel",
+        "categoria" => "personal",
+        "fecha"     => "2026-11-19",
+        "resumen"   => "Lo que más escucho: salsa, cumbia, música peruana, Juan Gabriel y Sebastián Yatra.",
+        "cuerpo"    => [
+            "Cuando pongo música, casi siempre es salsa, cumbia o música peruana. También escucho a Juan Gabriel y a Sebastián Yatra.",
+            "Y una de las canciones que más escucho es Tacones Rojos, de Sebastián Yatra.",
+        ],
+    ],
+    [
+        "slug"      => "mis-planes-favoritos-en-chimbote",
+        "titulo"    => "Mis planes favoritos en Chimbote",
+        "categoria" => "personal",
+        "fecha"     => "2026-11-19",
+        "resumen"   => "Quedarme en casa, salir a comer con mi familia y juntarme con mis amigos.",
+        "cuerpo"    => [
+            "Si me preguntas qué plan prefiero en Chimbote, te digo que quedarme en casa.",
+            "Después viene salir a comer con mi familia, y en tercer lugar juntarme con mis amigos en un parque o en una plaza.",
+        ],
+    ],
+    [
+        "slug"      => "mi-mejor-partido-del-barca",
+        "titulo"    => "Mi mejor partido del Barça",
+        "categoria" => "personal",
+        "fecha"     => "2026-11-19",
+        "resumen"   => "Fue un 5-2 al Real Madrid.",
+        "cuerpo"    => [
+            "Mi mejor partido del Barça fue un 5-2 al Real Madrid.",
+            "Ganarle así al rival más grande no se olvida fácil, y por eso es el partido que más recuerdo cuando me preguntan.",
+        ],
+    ],
+    [
+        "slug"      => "un-viaje-con-toda-mi-familia",
+        "titulo"    => "Un viaje con toda mi familia",
+        "categoria" => "personal",
+        "fecha"     => "2026-11-19",
+        "resumen"   => "Mi sueño es viajar a otro país con mis padres y mi hermano.",
+        "cuerpo"    => [
+            "Si me preguntas por un sueño para el futuro, tengo uno claro: viajar a otro país con toda mi familia, mis padres, mi hermano y yo.",
+            "Ya hemos viajado juntos a otras ciudades, como Chiclayo y Trujillo. Me gustaría que algún día ese viaje cruce la frontera, y que vayamos todos.",
+        ],
+    ],
+    [
+        "slug"      => "mi-barca-en-los-ultimos-anos",
+        "titulo"    => "Mi Barça en los últimos años",
+        "categoria" => "personal",
+        "fecha"     => "2026-11-19",
+        "resumen"   => "Soy del Barcelona y lo vivo todavía más desde que juega Lamine Yamal.",
+        "cuerpo"    => [
+            "Soy hincha del FC Barcelona. En los últimos años lo disfruto todavía más, sobre todo por Lamine Yamal.",
+            "El fútbol lo veo mucho más de lo que lo juego. De vez en cuando me junto con mis amigos y armamos un partido, pero lo mío es ver los partidos.",
+            "Como me gusta tanto, mi videojuego favorito también es de fútbol: el Pro Evolution Soccer. Si eres de otro equipo, igual podemos conversar.",
+        ],
+    ],
+    [
+        "slug"      => "pastor-por-un-rato-en-la-sierra",
+        "titulo"    => "Pastor por un rato en la sierra",
+        "categoria" => "personal",
+        "fecha"     => "2026-11-19",
+        "resumen"   => "De niño mis tíos me enseñaron a pastorear ovejas, y todavía me acuerdo.",
+        "cuerpo"    => [
+            "De niño fui a la sierra a visitar a mis tíos. Ahí me enseñaron a pastorear ovejas, algo que en la ciudad no se aprende.",
+            "Fue una experiencia muy distinta a todo lo que conocía, y hasta hoy la recuerdo. Me gusta contarla porque me recuerda que antes de las pantallas también aprendí cosas al lado de mi familia.",
+        ],
+    ],
+    [
+        "slug"      => "tiempo-en-familia-y-viajes",
+        "titulo"    => "Tiempo en familia y viajes",
+        "categoria" => "personal",
+        "fecha"     => "2026-11-19",
+        "resumen"   => "Mis mejores planes son con mi familia, en casa o de viaje a Chiclayo y Trujillo.",
+        "cuerpo"    => [
+            "Lo que más disfruto es pasar tiempo con mi familia.",
+            "A veces viajamos juntos a otras ciudades, como Chiclayo y Trujillo, y esos viajes son de mis mejores planes.",
+            "Y si hay que elegir qué comer, mi voto es para el ají de gallina, mi plato favorito.",
+        ],
+    ],
+    [
+        "slug"      => "peliculas-con-vueltas",
+        "titulo"    => "Películas con vueltas",
+        "categoria" => "personal",
+        "fecha"     => "2026-11-19",
+        "resumen"   => "Marvel, historias sobre el tiempo, ciencia ficción y lo surreal, con Avengers: La era de Ultron y The 8 Show.",
+        "cuerpo"    => [
+            "Mis géneros favoritos son las películas de Marvel, las que juegan con el tiempo, la ciencia ficción y todo lo surreal.",
+            "Si me pides una película, te digo Avengers: La era de Ultron. Si me pides una serie, te digo The 8 Show, de Netflix.",
+            "Si tienes una recomendación de alguna de esas, te la recibo con gusto desde la página de contacto.",
+        ],
+    ],
+    [
         "slug"      => "lo-que-busco-al-terminar-la-carrera",
         "titulo"    => "Lo que busco al terminar la carrera",
         "categoria" => "personal",
