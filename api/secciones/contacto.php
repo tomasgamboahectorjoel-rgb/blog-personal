@@ -1,7 +1,7 @@
 <section class="bloque">
     <div class="contenedor">
         <h1>Contacto</h1>
-        <p class="lead">Me puedes escribir por correo o encontrarme en LinkedIn y GitHub.</p>
+        <p class="lead">Escríbeme por correo o búscame en LinkedIn y GitHub. Con gusto te respondo.</p>
 
         <div class="rejilla rejilla-3">
             <a class="tarjeta tarjeta-area" href="mailto:<?= e($perfil["correo"]) ?>">
@@ -21,6 +21,6 @@
             </a>
         </div>
 
-        <p class="aparte">Estoy en <?= e($perfil["ubicacion"]) ?>.</p>
+        <p class="aparte">Vivo en <?= e($perfil["ubicacion"]) ?>.</p>
     </div>
 </section>

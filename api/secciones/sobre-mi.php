@@ -1,27 +1,26 @@
 <?php
 $linea = [
-    ["fecha" => "Marzo de 2022", "titulo" => "Ingreso a la UNS", "texto" => "Empiezo Ingeniería de Sistemas e Informática desde el primer ciclo. El primer año fue semipresencial por el covid."],
-    ["fecha" => "Septiembre y octubre de 2025", "titulo" => "Pasantía internacional en España", "texto" => "Pasantía en la Universidad de La Laguna."],
-    ["fecha" => "De marzo a julio de 2026", "titulo" => "Prácticas en Neuracode", "texto" => "Practicante programador en el área de desarrollo. Desarrollo un agente de IA."],
-    ["fecha" => "28 de septiembre al 23 de octubre de 2026", "titulo" => "Pasantía en la Universidad de Lima", "texto" => "Grupo de cuatro estudiantes, plataforma de clasificación de incidencias de TI y taller de IoT."],
-    ["fecha" => "Segundo semestre de 2026", "titulo" => "Décimo ciclo y Tesis II", "texto" => "Último ciclo de la carrera, con la tesis de realidad aumentada en marcha."],
-    ["fecha" => "Diciembre de 2026", "titulo" => "Egreso previsto", "texto" => "Cierre de la carrera y búsqueda de trabajo en big data e IA."],
+    ["fecha" => "Marzo de 2022", "titulo" => "Entré a la UNS", "texto" => "Empecé Ingeniería de Sistemas e Informática desde el primer ciclo. Ese primer año fue semipresencial por el covid."],
+    ["fecha" => "Septiembre y octubre de 2025", "titulo" => "Pasantía internacional en España", "texto" => "Hice una pasantía en la Universidad de La Laguna."],
+    ["fecha" => "De marzo a julio de 2026", "titulo" => "Prácticas en Neuracode", "texto" => "Entré como practicante programador al área de desarrollo y ahí desarrollé un agente de IA."],
+    ["fecha" => "28 de septiembre al 23 de octubre de 2026", "titulo" => "Pasantía en la Universidad de Lima", "texto" => "Con un grupo de cuatro estudiantes trabajé en una plataforma de clasificación de incidencias de TI y en un taller de IoT."],
+    ["fecha" => "Segundo semestre de 2026", "titulo" => "Décimo ciclo y Tesis II", "texto" => "Voy en el último ciclo y con la tesis de realidad aumentada en marcha."],
+    ["fecha" => "Diciembre de 2026", "titulo" => "Egreso previsto", "texto" => "Termino la carrera y empiezo a buscar trabajo en big data e IA."],
 ];
 
 $reglas = [
-    ["titulo" => "La evidencia manda", "texto" => "En un informe técnico lo escrito debe coincidir con lo que pasó de verdad. Si la captura del sistema real contradice lo calculado, gana la captura."],
-    ["titulo" => "Un módulo a la vez", "texto" => "Avanzo por partes y confirmo cada una con capturas antes de pasar a la siguiente."],
-    ["titulo" => "Mejor simple que ingenioso", "texto" => "Si una solución rebuscada da problemas al depurar, vuelvo a la más sencilla."],
-    ["titulo" => "Documentos en regla", "texto" => "Todo lo académico va en APA 7, con tablas limpias y sin adornos."],
+    ["titulo" => "Digo lo que pasó", "texto" => "Si mi cálculo dice una cosa y el sistema muestra otra, me quedo con lo que muestra el sistema."],
+    ["titulo" => "Un paso a la vez", "texto" => "Termino una parte, la compruebo con capturas y recién sigo con la siguiente."],
+    ["titulo" => "Empiezo por lo simple", "texto" => "Si una solución complicada me da problemas, vuelvo a una más sencilla."],
 ];
 
 $intereses = [
-    ["titulo" => "Agentes e IA", "texto" => "Me acerqué por el electivo de Agentes Inteligentes y terminé construyendo uno."],
-    ["titulo" => "Algoritmos evolutivos", "texto" => "Me interesa cómo la evolución sirve para razonar y para resolver problemas."],
-    ["titulo" => "Realidad aumentada en medicina", "texto" => "Es el tema de mi tesis: un hígado en 3D para estudiantes de Medicina."],
+    ["titulo" => "Agentes e IA", "texto" => "Llegué por el electivo de Agentes Inteligentes y terminé construyendo uno."],
+    ["titulo" => "Ciencia de datos y big data", "texto" => "Es el área donde quiero trabajar cuando termine la carrera."],
+    ["titulo" => "Algoritmos evolutivos", "texto" => "Me gusta cómo la evolución sirve para razonar y resolver problemas."],
+    ["titulo" => "Realidad aumentada en medicina", "texto" => "Es el tema de mi tesis: que estudiantes de Medicina puedan estudiar el hígado en 3D."],
     ["titulo" => "Automatización", "texto" => "Reservas y ventas por WhatsApp con ManyChat y Make, y n8n como siguiente paso."],
-    ["titulo" => "Ciberseguridad y forense", "texto" => "Laboratorios con Kali Linux, Autopsy y Wireshark."],
-    ["titulo" => "Minecraft modding", "texto" => "Mi taller aparte, con modpacks en Fabric y en Forge."],
+    ["titulo" => "Ciberseguridad y forense", "texto" => "Lo he trabajado en laboratorios con Kali Linux, Autopsy y Wireshark."],
 ];
 ?>
 <section class="bloque">
@@ -44,10 +43,10 @@ $intereses = [
 
             <div class="presentacion-texto">
                 <p class="lead"><?= e($perfil["frase"]) ?></p>
-                <p>Hola, soy <?= e($perfil["nombre"]) ?>. Estudio Ingeniería de Sistemas e Informática en la Universidad Nacional del Santa, en Nuevo Chimbote, y estoy en el décimo ciclo, el último de la carrera.</p>
-                <p>Lo que más me atrae es construir software que sirva para algo, sobre todo cuando hay inteligencia artificial de por medio. Tengo una tesis en curso con realidad aumentada, desarrollé un agente de IA en mis prácticas y hoy quiero trabajar en big data e IA.</p>
-                <p>Me considero una persona responsable, con ganas de aprender, atento al detalle y a gusto trabajando en equipo. Prefiero las soluciones simples y bien estructuradas, y prefiero mostrar evidencia antes que suposiciones.</p>
-                <p>Busco oportunidades para seguir creciendo en el área de TI y aportar con soluciones tecnológicas bien armadas. Si algo de lo que ves aquí te interesa, escríbeme desde la página de <a href="/contacto">contacto</a>.</p>
+                <p>Hola, soy <?= e($perfil["nombre"]) ?>. Estudio Ingeniería de Sistemas e Informática en la Universidad Nacional del Santa, en Nuevo Chimbote, y voy en el décimo ciclo, el último de la carrera.</p>
+                <p>Lo que más me gusta es construir software que sirva de verdad, sobre todo cuando hay inteligencia artificial de por medio. Estoy con una tesis de realidad aumentada, en mis prácticas desarrollé un agente de IA y ahora quiero trabajar en big data e IA.</p>
+                <p>Me describo como alguien responsable, con muchas ganas de aprender, atento a los detalles y cómodo trabajando en equipo. Prefiero las soluciones simples y bien armadas, y me gusta mostrar evidencia en lugar de suponer.</p>
+                <p>Busco oportunidades para crecer en el área de TI y aportar con soluciones bien estructuradas. Si algo de lo que ves te interesa, escríbeme desde la página de <a href="/contacto">contacto</a> y con gusto te respondo.</p>
             </div>
         </div>
     </div>
@@ -55,8 +54,8 @@ $intereses = [
 
 <section class="bloque bloque-suave">
     <div class="contenedor estrecho">
-        <p class="sobretitulo">Línea de vida</p>
-        <h2>Mi recorrido desde 2022</h2>
+        <p class="sobretitulo">Mi recorrido</p>
+        <h2>Cómo llegué hasta aquí</h2>
         <ol class="linea-tiempo">
             <?php foreach ($linea as $hito): ?>
                 <li>
@@ -72,8 +71,8 @@ $intereses = [
 <section class="bloque">
     <div class="contenedor">
         <p class="sobretitulo">Cómo trabajo</p>
-        <h2>Mis reglas</h2>
-        <div class="rejilla rejilla-4">
+        <h2>Mis tres reglas</h2>
+        <div class="rejilla rejilla-3">
             <?php foreach ($reglas as $i => $r): ?>
                 <article class="tarjeta">
                     <span class="numero"><?= sprintf("%02d", $i + 1) ?></span>

@@ -4,23 +4,23 @@
     <div class="contenedor estrecho">
         <p class="sobretitulo cat-profesional-texto">Experiencia</p>
         <h1>Experiencia y logros</h1>
-        <p class="lead">Prácticas como programador, dos pasantías y un primer puesto en un concurso de emprendimiento.</p>
+        <p class="lead">Aquí te cuento por dónde he pasado: prácticas como programador, dos pasantías y un primer puesto en un concurso de emprendimiento.</p>
 
         <ol class="linea-tiempo">
             <li>
                 <h3>Practicante programador en Neuracode S.A.C.</h3>
                 <p class="meta">De marzo a julio, cerca de cuatro meses &middot; Área de desarrollo</p>
-                <p>Neuracode dicta cursos de capacitación en tecnología y desarrolla sistemas a medida para empresas. Mi función fue programar. El resultado principal fue un agente de IA para WhatsApp: yo hice el backend en .NET con arquitectura limpia.</p>
+                <p>Neuracode dicta cursos de capacitación en tecnología y desarrolla sistemas a medida para empresas. Mi trabajo era programar, y lo más importante que salió de ahí fue un agente de IA para WhatsApp. Me encargué del backend, en .NET con arquitectura limpia.</p>
             </li>
             <li>
                 <h3>Pasantía en la Universidad de Lima</h3>
                 <p class="meta">28 de septiembre al 23 de octubre de 2026</p>
-                <p>Grupo de cuatro estudiantes, con una plataforma de clasificación inteligente de incidencias de TI y un taller guiado de IoT.</p>
+                <p>Trabajé con otros tres estudiantes en una plataforma de clasificación inteligente de incidencias de TI. También hubo un taller guiado de IoT.</p>
             </li>
             <li>
                 <h3>Pasantía internacional en la Universidad de La Laguna, España</h3>
                 <p class="meta">Finales de septiembre y octubre de 2025</p>
-                <p>Mi certificado de pasantía menciona inteligencia artificial, bases de datos y tecnologías web.</p>
+                <p>Mi primera pasantía, y la única fuera del país.</p>
             </li>
             <li>
                 <h3>Protecrick</h3>
@@ -67,7 +67,7 @@
     <div class="contenedor estrecho">
         <p class="sobretitulo">Siguiente paso</p>
         <h2>Hacia dónde voy</h2>
-        <p>Quiero trabajar en big data e inteligencia artificial. Si tienes una oportunidad en ese campo, escríbeme desde la página de <a href="/contacto">contacto</a> o por <a href="<?= e($perfil["linkedin"]) ?>" target="_blank" rel="noopener">LinkedIn</a>.</p>
+        <p>Quiero trabajar en big data e inteligencia artificial. Si conoces una oportunidad en ese campo, escríbeme desde la página de <a href="/contacto">contacto</a> o por <a href="<?= e($perfil["linkedin"]) ?>" target="_blank" rel="noopener">LinkedIn</a> y conversamos.</p>
     </div>
 </section>
 

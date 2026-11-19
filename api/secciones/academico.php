@@ -4,7 +4,7 @@
     <div class="contenedor">
         <p class="sobretitulo cat-academico-texto">Académico</p>
         <h1>La carrera en la UNS</h1>
-        <p class="lead">Ingeniería de Sistemas e Informática, Universidad Nacional del Santa. Entré en 2022 y cierro en diciembre de 2026.</p>
+        <p class="lead">Estudio Ingeniería de Sistemas e Informática en la Universidad Nacional del Santa. Entré en 2022 y termino en diciembre de 2026.</p>
 
         <h2>Datos de la carrera</h2>
         <dl class="lista-datos">
@@ -20,7 +20,7 @@
 <section class="bloque bloque-suave">
     <div class="contenedor">
         <h2>Cursos por tema</h2>
-        <p>Agrupé los cursos del plan según el área a la que pertenecen. Entre paréntesis va el ciclo en que se llevan.</p>
+        <p>Te dejo los cursos del plan agrupados por tema, para que veas rápido qué se estudia en cada área. El número entre paréntesis es el ciclo en que se llevan.</p>
         <div class="rejilla rejilla-3">
             <?php foreach ($grupos as $nombre => $cursos): ?>
                 <article class="tarjeta">
@@ -38,17 +38,17 @@
 
 <section class="bloque">
     <div class="contenedor estrecho">
-        <h2>Lo que destaco</h2>
-        <p>Algoritmos es uno de mis cursos favoritos y mi mejor nota técnica: 19 de promedio. Mis electivos fueron Agentes Inteligentes y Algoritmos Evolutivos y de Aprendizaje, elegidos por interés y ubicados en la línea de Inteligencia Artificial y Robótica del plan.</p>
-        <p>No hice intercambios ni cursos en otras universidades, pero sí dos pasantías: la Universidad de La Laguna (España, 2025) y la Universidad de Lima (2026).</p>
-        <p>Mi certificación es Scrum Fundamentals Certified, cuarta edición, en español. En inglés tengo nivel elemental.</p>
+        <h2>Lo que más destaco</h2>
+        <p>Algoritmos es uno de mis cursos favoritos y también mi mejor nota técnica, con 19 de promedio. Mis electivos fueron Agentes Inteligentes y Algoritmos Evolutivos y de Aprendizaje, y los elegí por interés. Los dos están en la línea de Inteligencia Artificial y Robótica del plan.</p>
+        <p>No hice intercambios ni cursos en otras universidades, pero sí dos pasantías: en la Universidad de La Laguna (España, 2025) y en la Universidad de Lima (2026).</p>
+        <p>Mi certificación es Scrum Fundamentals Certified, cuarta edición, en español. En inglés estoy en nivel elemental.</p>
     </div>
 </section>
 
 <section class="bloque bloque-suave">
     <div class="contenedor estrecho">
         <h2>Plan de estudios completo</h2>
-        <p>Currículo 2018 de la Escuela Profesional de Ingeniería de Sistemas e Informática (Resolución N.° 509-2018-CU-R-UNS). Toca cada ciclo para ver sus cursos.</p>
+        <p>Este es el plan completo, del Currículo 2018 de la Escuela Profesional de Ingeniería de Sistemas e Informática (Resolución N.° 509-2018-CU-R-UNS). Abre cada ciclo para ver sus cursos.</p>
         <div class="acordeon">
             <?php foreach ($plan as $ciclo => $cursos): ?>
                 <details<?= $ciclo === "X" ? " open" : "" ?>>

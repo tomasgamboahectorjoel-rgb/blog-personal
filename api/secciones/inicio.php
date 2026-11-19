@@ -8,8 +8,7 @@
             <p class="escribe">
                 <span class="escribe-texto" data-escribir="<?= e(json_encode($perfil["frases"], JSON_UNESCAPED_UNICODE)) ?>"><?= e($perfil["frases"][0]) ?></span><span class="cursor" aria-hidden="true"></span>
             </p>
-            <p class="lead"><?= e($perfil["frase"]) ?></p>
-            <p>Estoy en el décimo ciclo de la Universidad Nacional del Santa. En este blog está todo lo que hace falta para conocerme: lo que estudio, lo que he hecho, cómo trabajo y cómo contactarme.</p>
+            <p>Soy estudiante del décimo ciclo en la Universidad Nacional del Santa. Aquí vas a encontrar todo para conocerme: lo que estudio, lo que he hecho, cómo trabajo y cómo contactarme.</p>
             <div class="botones">
                 <a class="boton boton-primario" href="/sobre-mi">Conóceme</a>
                 <a class="boton" href="/proyectos">Ver proyectos</a>
@@ -50,27 +49,27 @@
 <section class="bloque">
     <div class="contenedor">
         <p class="sobretitulo">Qué vas a encontrar</p>
-        <h2>Mi perfil completo, en cuatro partes</h2>
+        <h2>Todo sobre mí, en cuatro partes</h2>
         <div class="rejilla rejilla-4">
             <a class="tarjeta tarjeta-area cat-personal" href="/sobre-mi">
                 <span class="etiqueta">Personal</span>
                 <h3>Sobre mí</h3>
-                <p>Cómo me presento, cómo trabajo, qué me interesa y mi línea de vida desde 2022.</p>
+                <p>Quién soy, cómo trabajo, qué me interesa y mi recorrido desde 2022.</p>
             </a>
             <a class="tarjeta tarjeta-area cat-academico" href="/academico">
                 <span class="etiqueta">Académico</span>
                 <h3>La carrera</h3>
-                <p>Datos de la UNS, cursos por tema y el plan de estudios completo.</p>
+                <p>Mi carrera en la UNS, los cursos por tema y el plan de estudios completo.</p>
             </a>
             <a class="tarjeta tarjeta-area cat-profesional" href="/experiencia">
                 <span class="etiqueta">Profesional</span>
                 <h3>Experiencia</h3>
-                <p>Prácticas, dos pasantías, un primer puesto, certificación y herramientas.</p>
+                <p>Mis prácticas, dos pasantías, un primer puesto, mi certificación y las herramientas que uso.</p>
             </a>
             <a class="tarjeta tarjeta-area" href="/proyectos">
                 <span class="etiqueta">Hecho</span>
                 <h3>Proyectos</h3>
-                <p>Tesis con realidad aumentada, un agente de IA, automatizaciones y más.</p>
+                <p>Mi tesis, un agente de IA, automatizaciones y proyectos de curso.</p>
             </a>
         </div>
     </div>
@@ -91,7 +90,7 @@
 <section class="bloque">
     <div class="contenedor estrecho centrado">
         <h2>¿Buscas a alguien para big data o IA?</h2>
-        <p class="lead">Estoy terminando la carrera y busco mi primera oportunidad en esa área.</p>
+        <p class="lead">Estoy por terminar la carrera y busco mi primera oportunidad en esa área. Si crees que puedo encajar, escríbeme.</p>
         <div class="botones centrado-botones">
             <a class="boton boton-primario" href="mailto:<?= e($perfil["correo"]) ?>">Escríbeme</a>
             <a class="boton" href="<?= e($perfil["linkedin"]) ?>" target="_blank" rel="noopener">LinkedIn</a>

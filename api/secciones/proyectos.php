@@ -2,7 +2,7 @@
     <div class="contenedor">
         <p class="sobretitulo">Proyectos</p>
         <h1>Lo que he construido</h1>
-        <p class="lead">Una tesis, un agente de IA, automatizaciones para clientes y proyectos de curso. Cada tarjeta dice el estado real del trabajo.</p>
+        <p class="lead">Aquí te cuento lo que he hecho: una tesis, un agente de IA, automatizaciones para clientes y proyectos de curso. Cada tarjeta indica en qué punto está.</p>
 
         <div class="rejilla rejilla-2 proyectos">
             <?php foreach ($proyectos as $p): ?>
@@ -13,11 +13,13 @@
                     </div>
                     <h3><?= e($p["titulo"]) ?></h3>
                     <p><?= e($p["descripcion"]) ?></p>
+                    <?php if (!empty($p["stack"])): ?>
                     <ul class="chips">
                         <?php foreach ($p["stack"] as $tec): ?>
                             <li><?= e($tec) ?></li>
                         <?php endforeach; ?>
                     </ul>
+                    <?php endif; ?>
                 </article>
             <?php endforeach; ?>
         </div>
