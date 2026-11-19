@@ -17,7 +17,7 @@ $perfil = [
     /* Frases que se escriben solas en la portada */
     "frases"       => [
         "estudiante de Ingeniería de Sistemas e Informática",
-        "apasionado por los datos y la inteligencia artificial",
+        "apasionado por la ciencia de datos y la inteligencia artificial",
         "programador de agentes de IA",
         "listo para trabajar en big data e IA",
     ],
