@@ -46,9 +46,9 @@ function minutos_lectura(array $entrada): int
 $ruta = trim((string) parse_url($_SERVER["REQUEST_URI"] ?? "/", PHP_URL_PATH), "/");
 
 $paginas = [
-    ""            => ["inicio",      "Inicio",      "Blog personal de Héctor Joel Tomas Gamboa, estudiante de Ingeniería de Sistemas e Informática en la UNS."],
-    "sobre-mi"    => ["sobre-mi",    "Sobre mí",    "Quién soy, cómo trabajo y qué me mueve, más mi línea de vida desde 2022."],
-    "academico"   => ["academico",   "Académico",   "Mi carrera en la Universidad Nacional del Santa: datos, cursos y plan de estudios."],
+    ""            => ["inicio",      "Inicio",      "Blog personal de Héctor Joel Tomas Gamboa: sus gustos, su familia, el Barça, y también su carrera en Ingeniería de Sistemas e Informática en la UNS."],
+    "sobre-mi"    => ["sobre-mi",    "Sobre mí",    "Quién soy y qué me gusta: fútbol, el Barça, películas, videojuegos, ají de gallina y tiempo en familia."],
+    "academico"   => ["academico",   "Académico",   "Mi carrera en la Universidad Nacional del Santa: recorrido, reglas de trabajo, cursos y plan de estudios."],
     "experiencia" => ["experiencia", "Experiencia", "Prácticas, pasantías, logros y herramientas."],
     "proyectos"   => ["proyectos",   "Proyectos",   "Tesis, agente de IA, automatizaciones y proyectos de curso."],
     "blog"        => ["blog",        "Blog",        "Todas las entradas del blog."],
